@@ -1,0 +1,18 @@
+{% extends "base.twig" %}
+{% block content %}
+    <section class="hero is-medium is-primary">
+        <div class="hero-body">
+            <h1 class="title is-1 mb-6">
+            Hello on my website
+            </h1>
+            <p class="subtitle">
+            Just have fun with Bulma and Timber
+            </p>
+        </div>
+    </section>
+
+    <div class='container my-6'>
+    <h2 class='title is-4'>{{post.title}}</h2>
+    {{post.content}}
+    </div>
+{% endblock %}
